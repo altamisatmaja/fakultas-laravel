@@ -4,19 +4,29 @@ open your cmd or terminal
 
 make sure u're in the folder where u want this project to be cloned
 example by me is in:
-```~/Documents/```
+```
+~/Documents/
+```
 
 git clone this repo by:
-```git clone```
+```
+git clone git@github.com:altamisatmaja/fakultas-laravel.git
+```
 
 masuk ke dalam project
-```cd fakultas-laravel```
+```
+cd fakultas-laravel
+```
 
 create .env by copy and rename .env.example
-```cp .env.example .env```
+```
+cp .env.example .env
+```
 
 add key of your laravel by:
-```php artisan key:generate```
+```
+php artisan key:generate
+```
 
 add database conf by add this 👇 in .env
 ```
@@ -29,10 +39,15 @@ DB_PASSWORD=<kosongi jika ngga ada password>
 ```
 
 run migration + seeder
-```php artisan migrate:fresh --seed```
+```
+php artisan migrate:fresh --seed
+```
 
 if error, check your configuration database and dont forget to start xampp/laragon, OK
 
-done.
-u'all can run this to local by:
-```php artisan serve```
+#done.
+
+u'all can run this project in local by:
+```
+php artisan serve
+```
